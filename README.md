@@ -13,12 +13,12 @@ hostname of the new service, and the domain name of the DNS zone in which the
 new service will reside.
 
 ```hcl
-module "cloudflare_verified_ACM_cert" {$
-  source = "github.com/zeNkan/Terraform-Cloudflare-Verified-ACM-Cert"$
+module "cloudflare_verified_ACM_cert" {
+  source = "github.com/zeNkan/Terraform-Cloudflare-Verified-ACM-Cert"
 
   hostname    = "test"
   domain_name = "example.com"
-}$
+}
 ```
 
 
