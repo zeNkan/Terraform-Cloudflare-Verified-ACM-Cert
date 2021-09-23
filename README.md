@@ -1,4 +1,4 @@
-# Terraform-Cloudflare-Verified_ACM_Cert
+# Terraform-Cloudflare-Verified-ACM-Cert
 Terraform module to create ACM certificates verified via cloudflare DNS
 
 ## Prerequisites
@@ -20,7 +20,4 @@ module "cloudflare_verified_ACM_cert" {
   domain_name = "example.com"
 }
 ```
-
-
-
 
